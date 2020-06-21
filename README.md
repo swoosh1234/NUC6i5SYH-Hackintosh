@@ -1,0 +1,2 @@
+# NUC6i5SYH
+NUC6i5SYH + OpenCore
