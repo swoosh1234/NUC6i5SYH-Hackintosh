@@ -11,17 +11,19 @@ Install macOS Catalina on Intel NUC6i5SYH using OpenCore.
 - WIFI/BT: *Intel Wireless-AC 8260 + Bluetooth 4.2*
 - BIOS version: *SYSKLi35.86A.0072.2019.1001.1636*
 
-## Working
+## Functionality
+### Working
 - Audio jack
 - HDMI output
 - Ethernet
 - BT
 - HDMI audio*
-## Not Working
+### Not Working
 - WIFI
 - Memory Card Reader
-## Did Not Test
+### Did Not Test
 - mDP output
 
 ## Preparation
 ### Bios
+### Opencore
