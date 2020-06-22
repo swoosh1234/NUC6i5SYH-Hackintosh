@@ -1,2 +1,2 @@
-# NUC6i5SYH
-NUC6i5SYH + OpenCore
+# NUC6i5SYH-Hackintosh
+Install macOS Catalina on Intel NUC6i5SYH using OpenCore
