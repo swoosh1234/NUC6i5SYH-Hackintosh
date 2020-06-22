@@ -27,12 +27,14 @@ Install macOS Catalina on Intel NUC6i5SYH using OpenCore.
 ## Preparation
 ### BIOS
 Press **F2** during boot to enter BIOS Setup
+
 **Disable**
 - Boot > Boot Configuration > Fast Boot
 - Boot > Secure Boot > Secure Boot
 - Security > Intel VT for Directed I/O (VT-d)
 - Security > Intel Software Guard Extension (SGX)
 - Security > Intel Platform Trust Technology
+
 **Enable**
 - Security > Intel virtualization Technology (VT-x)
 - Security > Execute Disable Bit
