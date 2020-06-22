@@ -26,23 +26,24 @@ Install macOS Catalina on Intel NUC6i5SYH using OpenCore.
 
 ## Preparation
 ### BIOS
-Press **F2** during boot to enter BIOS Setup
+ Press **F2** during boot to enter BIOS Setup
 
-**Disable**
-- Boot > Boot Configuration > Fast Boot
-- Boot > Secure Boot > Secure Boot
-- Security > Intel VT for Directed I/O (VT-d)
-- Security > Intel Software Guard Extension (SGX)
-- Security > Intel Platform Trust Technology
+ **Disable**
+  - Boot > Boot Configuration > Fast Boot
+  - Boot > Secure Boot > Secure Boot
+  - Security > Intel VT for Directed I/O (VT-d)
+  - Security > Intel Software Guard Extension (SGX)
+  - Security > Intel Platform Trust Technology
 
-**Enable**
-- Security > Intel virtualization Technology (VT-x)
-- Security > Execute Disable Bit
-- Performace > Processor > Intel Hyper-Threading Technology
-- EHCI/XHCI Hand-off
-- OS type: Windows 8.1/10 UEFI Mode
-- Performance > Graphics > DVMT Pre-Allocated(iGPU Memory): 64MB
+ **Enable**
+  - Security > Intel virtualization Technology (VT-x)
+  - Security > Execute Disable Bit
+  - Performace > Processor > Intel Hyper-Threading Technology
+  - EHCI/XHCI Hand-off
+  - OS type: Windows 8.1/10 UEFI Mode
+  - Performance > Graphics > DVMT Pre-Allocated(iGPU Memory): 64MB
 
 ### OpenCore
 This [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-Guide/) is a great resource for setting up files.
+
 Current OpenCore Version: 0.5.9
