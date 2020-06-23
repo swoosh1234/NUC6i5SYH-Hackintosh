@@ -19,9 +19,11 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
 - Ethernet
 - BT
 - HDMI Audio
+
 ### Not Working
 - WIFI
 - Memory Card Reader
+
 ### Did Not Test
 - mDP Output
 - Internal USB headers
