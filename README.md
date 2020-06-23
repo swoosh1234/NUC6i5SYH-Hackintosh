@@ -17,8 +17,8 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
 - Audio Jack
 - HDMI Output
 - Ethernet
-- BT*
-- HDMI Audio**
+- BT**
+- HDMI Audio***
 
 **Not Working**
 - WIFI
@@ -28,8 +28,8 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
 - mDP Output
 - Internal USB headers
 
-* BT is fixed by using [IntelBluetoothFirmware + IntelBluetoothInjector (1.0.3)](https://github.com/zxystd/IntelBluetoothFirmware/releases)
-** HDMI Audio is fixed by using [FakePCIID + FakePCIID_Intel_HDMI_Audio (RehabMan-FakePCIID-2018-1027)](https://github.com/RehabMan/OS-X-Fake-PCI-ID)
+** BT is fixed by using [IntelBluetoothFirmware + IntelBluetoothInjector (1.0.3)](https://github.com/zxystd/IntelBluetoothFirmware/releases)
+*** HDMI Audio is fixed by using [FakePCIID + FakePCIID_Intel_HDMI_Audio (RehabMan-FakePCIID-2018-1027)](https://github.com/RehabMan/OS-X-Fake-PCI-ID)
 
 ## Installation
 1. Follow [OpenCore Desktop Guide - Creating the USB](https://dortania.github.io/OpenCore-Desktop-Guide/installer-guide/) to create USB installer.
