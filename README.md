@@ -64,7 +64,8 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
 ## Post-installation
 1. [Fix USB map](https://dortania.github.io/USB-Map-Guide/intel-mapping/intel.html) and remove USBInjectAll
 
-## File Source
+
+## Source
 - `EFI/OC/Drivers`
   - [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
 - `EFI/OC/Kexts`
@@ -78,9 +79,10 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
   - [FakePCIID + FakePCIID_Intel_HDMI_Audio (RehabMan-FakePCIID-2018-1027)](https://github.com/RehabMan/OS-X-Fake-PCI-ID)
   
   
-To Do
-[ ] Replace WIFI with BCM94360CS2 + [adapter](https://www.aliexpress.com/item/4000494260199.html)
-[ ] Fix USB map and remove USBInjectAll
+## To Do
+ [ ] Replace WIFI with BCM94360CS2 + [adapter](https://www.aliexpress.com/item/4000494260199.html)
+ [ ] Fix USB map and remove USBInjectAll
+ [X]
 
 
 
