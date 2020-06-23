@@ -80,9 +80,11 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
   
   
 ## To Do
-- [ ] Replace WIFI with BCM94360CS2 + [adapter](https://www.aliexpress.com/item/4000494260199.html)
+- [ ] Replace WIFI
+      - [X] Get BCM94360CS2
+      - [ ] Get [12+6 pin to M.2 adapter](https://www.aliexpress.com/item/4000494260199.html)
 - [ ] Fix USB map and remove USBInjectAll
-- [X] Test
+- [ ] Activate iService
 
 
 
