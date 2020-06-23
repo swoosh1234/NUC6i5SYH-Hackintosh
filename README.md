@@ -1,5 +1,5 @@
 # NUC6i5SYH-Hackintosh
-Install macOS Catalina on Intel NUC6i5SYH using OpenCore.
+Install macOS Catalina on Intel NUC6i5SYH using OpenCore 0.5.9.
 
 Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-Guide/)
 
@@ -17,8 +17,8 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
 - Audio Jack
 - HDMI Output
 - Ethernet
-- BT
-- HDMI Audio
+- BT*
+- HDMI Audio**
 
 **Not Working**
 - WIFI
@@ -28,30 +28,10 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
 - mDP Output
 - Internal USB headers
 
-## Preparation
-### BIOS
-Press **F2** during boot to enter BIOS Setup. Choose **Load Defaults**.
+* BT is fixed by using [IntelBluetoothFirmware + IntelBluetoothInjector (1.0.3)](https://github.com/zxystd/IntelBluetoothFirmware/releases)
+** HDMI Audio is fixed by using [FakePCIID + FakePCIID_Intel_HDMI_Audio (RehabMan-FakePCIID-2018-1027)](https://github.com/RehabMan/OS-X-Fake-PCI-ID)
 
-- **Disable**
-  - Boot > Boot Configuration > Fast Boot
-  - Boot > Boot Configuration > Network Boot
-  - Boot > Secure Boot > Secure Boot
-  - Security > Intel VT for Directed I/O (VT-d)
-  - Security > Intel Software Guard Extension (SGX)
-  - Security > Intel Platform Trust Technology
-  - Power -> Secondary Power Settings -> Wake on LAN from S4/S5
- 
-- **Enable**
-  - Security > Intel virtualization Technology (VT-x)
-  - Security > Execute Disable Bit
-  - Performace > Processor > Intel Hyper-Threading Technology
-  - Performance > Graphics > DVMT Pre-Allocated(iGPU Memory): 64MB
-  - EHCI/XHCI Hand-off
-  - OS type: Windows 8.1/10 UEFI Mode
-
-### OpenCore
-OpenCore Version: 0.5.9
-
+## Installation
 1. Follow [OpenCore Desktop Guide - Creating the USB](https://dortania.github.io/OpenCore-Desktop-Guide/installer-guide/) to create USB installer.
 2. Replace `EFI` with [EFI](asdsa)
 3. Generate SMBIOS using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
@@ -59,10 +39,27 @@ OpenCore Version: 0.5.9
    - Edit `EFI/OC/config.plist`
      - `Type` goes to PlatformInfo > Generic > SystemProductName
      - `Serial` goes to PlatformInfo > Generic > SystemSerialNumber
-     - `Board` Serial goes to PlatformInfo > Generic > MLB
+     - `Board Serial` goes to PlatformInfo > Generic > MLB
      - `SmUUID` goes to PlatformInfo > Generic > SystemUUID
+4. Press **F2** during boot to enter **BIOS** Setup. Choose **Load Defaults**.
+   - **Disable**
+     - Boot > Boot Configuration > Fast Boot
+     - Boot > Boot Configuration > Network Boot
+     - Boot > Secure Boot > Secure Boot
+     - Security > Intel VT for Directed I/O (VT-d)
+     - Security > Intel Software Guard Extension (SGX)
+     - Security > Intel Platform Trust Technology
+     - Power -> Secondary Power Settings -> Wake on LAN from S4/S5
+   - **Enable**
+     - Security > Intel virtualization Technology (VT-x)
+     - Security > Execute Disable Bit
+     - Performace > Processor > Intel Hyper-Threading Technology
+     - Performance > Graphics > DVMT Pre-Allocated(iGPU Memory): 64MB
+     - EHCI/XHCI Hand-off
+     - OS type: Windows 8.1/10 UEFI Mode
+5. Plug USB installer and restart. Press **F10** and boot from USB installer
 
-File Source
+## Source
 - `EFI/OC/Drivers`
   - [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
 - `EFI/OC/Kexts`
