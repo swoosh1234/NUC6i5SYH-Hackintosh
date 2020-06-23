@@ -50,16 +50,21 @@ Press **F2** during boot to enter BIOS Setup. Choose **Load Defaults**.
   - OS type: Windows 8.1/10 UEFI Mode
 
 ### OpenCore
-Current OpenCore Version: 0.5.9
+OpenCore Version: 0.5.9
 
 1. Follow [OpenCore Desktop Guide - Creating the USB](https://dortania.github.io/OpenCore-Desktop-Guide/installer-guide/) to create USB installer.
 2. Replace `EFI` with [EFI](asdsa)
+3. Generate SMBIOS using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
+   - Model: `MacBookPro13,1` (CPU is more related to `MacBookPro13,1` than `iMac17,1`)
+   - Edit `EFI/OC/config.plist`
+     - `Type` goes to PlatformInfo > Generic > SystemProductName
+     - `Serial` goes to PlatformInfo > Generic > SystemSerialNumber
+     - `Board` Serial goes to PlatformInfo > Generic > MLB
+     - `SmUUID` goes to PlatformInfo > Generic > SystemUUID
 
-Source
+File Source
 - `EFI/OC/Drivers`
   - [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
-  - OpenCanopy.efi
-  - OpenRuntime.efi
 - `EFI/OC/Kexts`
   - [Lilu (1.4.5)](https://github.com/acidanthera/Lilu/releases)
   - [VirtualSMC + SMCProcessor + SMCSuperIO (1.1.4)](https://github.com/acidanthera/VirtualSMC/releases)
