@@ -3,7 +3,7 @@ Install macOS Catalina on Intel NUC6i5SYH using OpenCore.
 
 Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-Guide/)
 
-## Specs
+### Specs
 - CPU: *Intel Core i5-6260U*
 - RAM: *12 GB (8GB + 4GB)*
 - HDD: *Crucial MX500 250GB SATA SSD*
