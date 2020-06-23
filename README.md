@@ -29,6 +29,7 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
 - Internal USB headers
 
 ** BT is fixed by using [IntelBluetoothFirmware + IntelBluetoothInjector (1.0.3)](https://github.com/zxystd/IntelBluetoothFirmware/releases)
+
 *** HDMI Audio is fixed by using [FakePCIID + FakePCIID_Intel_HDMI_Audio (RehabMan-FakePCIID-2018-1027)](https://github.com/RehabMan/OS-X-Fake-PCI-ID)
 
 ## Installation
@@ -41,6 +42,7 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
      - `Serial` goes to PlatformInfo > Generic > SystemSerialNumber
      - `Board Serial` goes to PlatformInfo > Generic > MLB
      - `SmUUID` goes to PlatformInfo > Generic > SystemUUID
+     - MAC address go to PlatformInfo > Generic > ROM
 4. Press **F2** during boot to enter **BIOS** Setup. Choose **Load Defaults**.
    - **Disable**
      - Boot > Boot Configuration > Fast Boot
@@ -59,7 +61,10 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
      - OS type: Windows 8.1/10 UEFI Mode
 5. Plug USB installer and restart. Press **F10** and boot from USB installer
 
-## Source
+## Post-installation
+1. [Fix USB map](https://dortania.github.io/USB-Map-Guide/intel-mapping/intel.html) and remove USBInjectAll
+
+## File Source
 - `EFI/OC/Drivers`
   - [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
 - `EFI/OC/Kexts`
@@ -71,6 +76,11 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
   - [USBInjectAll (0.7.5)](https://github.com/Sniki/OS-X-USB-Inject-All/releases)
   - [IntelBluetoothFirmware + IntelBluetoothInjector (1.0.3)](https://github.com/zxystd/IntelBluetoothFirmware/releases)
   - [FakePCIID + FakePCIID_Intel_HDMI_Audio (RehabMan-FakePCIID-2018-1027)](https://github.com/RehabMan/OS-X-Fake-PCI-ID)
+  
+  
+To Do
+[ ] Replace WIFI with BCM94360CS2 + [adapter](https://www.aliexpress.com/item/4000494260199.html)
+[ ] Fix USB map and remove USBInjectAll
 
 
 
