@@ -13,20 +13,20 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
 - WIFI/BT: *Intel Wireless-AC 8260 + Bluetooth 4.2*
 - BIOS Version: *SYSKLi35.86A.0072.2019.1001.1636*
 
-- **Working**
-  - Audio Jack
-  - HDMI Output
-  - Ethernet
-  - BT
-  - HDMI Audio
+**Working**
+- Audio Jack
+- HDMI Output
+- Ethernet
+- BT
+- HDMI Audio
 
-- **Not Working**
-  - WIFI
-  - Memory Card Reader
+**Not Working**
+- WIFI
+- Memory Card Reader
 
-- **Did Not Test**
-  - mDP Output
-  - Internal USB headers
+**Did Not Test**
+- mDP Output
+- Internal USB headers
 
 ## Preparation
 ### BIOS
@@ -54,20 +54,21 @@ Current OpenCore Version: 0.5.9
 
 1. Follow [OpenCore Desktop Guide - Creating the USB](https://dortania.github.io/OpenCore-Desktop-Guide/installer-guide/) to create USB installer.
 2. Replace `EFI` with [EFI](asdsa)
-   - Files I used
-     - `EFI/OC/Drivers`
-       - [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
-       - OpenCanopy.efi
-       - OpenRuntime.efi
-     - `EFI/OC/Kexts`
-       - [Lilu (1.4.5)](https://github.com/acidanthera/Lilu/releases)
-       - [VirtualSMC + SMCProcessor + SMCSuperIO (1.1.4)](https://github.com/acidanthera/VirtualSMC/releases)
-       - [WhateverGreen (1.4.0)](https://github.com/acidanthera/WhateverGreen/releases)
-       - [AppleALC (1.5.0)](https://github.com/acidanthera/AppleALC/releases)
-       - [IntelMausi (1.0.3)](https://github.com/acidanthera/IntelMausi/releases)
-       - [USBInjectAll (0.7.5)](https://github.com/Sniki/OS-X-USB-Inject-All/releases)
-       - [IntelBluetoothFirmware + IntelBluetoothInjector (1.0.3)](https://github.com/zxystd/IntelBluetoothFirmware/releases)
-       - [FakePCIID + FakePCIID_Intel_HDMI_Audio (RehabMan-FakePCIID-2018-1027)](https://github.com/RehabMan/OS-X-Fake-PCI-ID)
+
+Source
+- `EFI/OC/Drivers`
+  - [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
+  - OpenCanopy.efi
+  - OpenRuntime.efi
+- `EFI/OC/Kexts`
+  - [Lilu (1.4.5)](https://github.com/acidanthera/Lilu/releases)
+  - [VirtualSMC + SMCProcessor + SMCSuperIO (1.1.4)](https://github.com/acidanthera/VirtualSMC/releases)
+  - [WhateverGreen (1.4.0)](https://github.com/acidanthera/WhateverGreen/releases)
+  - [AppleALC (1.5.0)](https://github.com/acidanthera/AppleALC/releases)
+  - [IntelMausi (1.0.3)](https://github.com/acidanthera/IntelMausi/releases)
+  - [USBInjectAll (0.7.5)](https://github.com/Sniki/OS-X-USB-Inject-All/releases)
+  - [IntelBluetoothFirmware + IntelBluetoothInjector (1.0.3)](https://github.com/zxystd/IntelBluetoothFirmware/releases)
+  - [FakePCIID + FakePCIID_Intel_HDMI_Audio (RehabMan-FakePCIID-2018-1027)](https://github.com/RehabMan/OS-X-Fake-PCI-ID)
 
 
 
