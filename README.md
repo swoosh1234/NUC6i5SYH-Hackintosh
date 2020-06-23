@@ -80,9 +80,9 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
   
   
 ## To Do
- [ ] Replace WIFI with BCM94360CS2 + [adapter](https://www.aliexpress.com/item/4000494260199.html)
- [ ] Fix USB map and remove USBInjectAll
- [X]
+- [ ] Replace WIFI with BCM94360CS2 + [adapter](https://www.aliexpress.com/item/4000494260199.html)
+- [ ] Fix USB map and remove USBInjectAll
+- [X] Test
 
 
 
