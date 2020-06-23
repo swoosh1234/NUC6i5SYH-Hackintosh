@@ -1,5 +1,6 @@
 # NUC6i5SYH-Hackintosh
 Install macOS Catalina on Intel NUC6i5SYH using OpenCore.
+
 Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-Guide/)
 
 ## Specs
