@@ -3,7 +3,7 @@ Install macOS Catalina on Intel NUC6i5SYH using OpenCore.
 
 Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-Guide/)
 
-### Specs
+## Specs
 - CPU: *Intel Core i5-6260U*
 - RAM: *12 GB (8GB + 4GB)*
 - HDD: *Crucial MX500 250GB SATA SSD*
@@ -52,19 +52,27 @@ Press **F2** during boot to enter BIOS Setup. Choose **Load Defaults**.
 ### OpenCore
 Current OpenCore Version: 0.5.9
 
-Follow [OpenCore Desktop Guide - Creating the USB](https://dortania.github.io/OpenCore-Desktop-Guide/installer-guide/) to create USB installer.
+Files I used:
 
-**Drivers**
+`EFI/OC/Drivers`
 - HfsPlus.efi
 - OpenCanopy.efi
 - OpenRuntime.efi
 
-**Kexts**
+`EFI/OC/Kexts`
 - [Lilu (1.4.5)](https://github.com/acidanthera/Lilu/releases)
 - [VirtualSMC + SMCProcessor + SMCSuperIO (1.1.4)](https://github.com/acidanthera/VirtualSMC/releases)
 - [WhateverGreen (1.4.0)](https://github.com/acidanthera/WhateverGreen/releases)
 - [AppleALC (1.5.0)](https://github.com/acidanthera/AppleALC/releases)
 - [IntelMausi (1.0.3)](https://github.com/acidanthera/IntelMausi/releases)
 - [USBInjectAll (0.7.5)](https://github.com/Sniki/OS-X-USB-Inject-All/releases)
+
+
+
+1. Follow [OpenCore Desktop Guide - Creating the USB](https://dortania.github.io/OpenCore-Desktop-Guide/installer-guide/) to create USB installer.
+2. Replace `EFI` with [EFI](asdsa)
+
+
+
 
 
