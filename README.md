@@ -56,18 +56,18 @@ Current OpenCore Version: 0.5.9
 2. Replace `EFI` with [EFI](asdsa)
    - Files I used
      - `EFI/OC/Drivers`
-     - [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
-     - OpenCanopy.efi
-     - OpenRuntime.efi
-   - `EFI/OC/Kexts`
-     - [Lilu (1.4.5)](https://github.com/acidanthera/Lilu/releases)
-     - [VirtualSMC + SMCProcessor + SMCSuperIO (1.1.4)](https://github.com/acidanthera/VirtualSMC/releases)
-     - [WhateverGreen (1.4.0)](https://github.com/acidanthera/WhateverGreen/releases)
-     - [AppleALC (1.5.0)](https://github.com/acidanthera/AppleALC/releases)
-     - [IntelMausi (1.0.3)](https://github.com/acidanthera/IntelMausi/releases)
-     - [USBInjectAll (0.7.5)](https://github.com/Sniki/OS-X-USB-Inject-All/releases)
-     - [IntelBluetoothFirmware + IntelBluetoothInjector (1.0.3)](https://github.com/zxystd/IntelBluetoothFirmware/releases)
-     - [FakePCIID + FakePCIID_Intel_HDMI_Audio (RehabMan-FakePCIID-2018-1027)](https://github.com/RehabMan/OS-X-Fake-PCI-ID)
+       - [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
+       - OpenCanopy.efi
+       - OpenRuntime.efi
+     - `EFI/OC/Kexts`
+       - [Lilu (1.4.5)](https://github.com/acidanthera/Lilu/releases)
+       - [VirtualSMC + SMCProcessor + SMCSuperIO (1.1.4)](https://github.com/acidanthera/VirtualSMC/releases)
+       - [WhateverGreen (1.4.0)](https://github.com/acidanthera/WhateverGreen/releases)
+       - [AppleALC (1.5.0)](https://github.com/acidanthera/AppleALC/releases)
+       - [IntelMausi (1.0.3)](https://github.com/acidanthera/IntelMausi/releases)
+       - [USBInjectAll (0.7.5)](https://github.com/Sniki/OS-X-USB-Inject-All/releases)
+       - [IntelBluetoothFirmware + IntelBluetoothInjector (1.0.3)](https://github.com/zxystd/IntelBluetoothFirmware/releases)
+       - [FakePCIID + FakePCIID_Intel_HDMI_Audio (RehabMan-FakePCIID-2018-1027)](https://github.com/RehabMan/OS-X-Fake-PCI-ID)
 
 
 
