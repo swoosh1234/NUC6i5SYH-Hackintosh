@@ -81,8 +81,8 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
 - [12+6 pin to M.2 adapter](https://www.aliexpress.com/item/4000494260199.html)
 
 ## Credits
-- https://dortania.github.io/OpenCore-Desktop-Guide/
 - https://www.reddit.com/r/hackintosh/
+- https://dortania.github.io/OpenCore-Desktop-Guide/
 - https://github.com/acidanthera/
 - https://github.com/Sniki/
 - https://github.com/RehabMan/
