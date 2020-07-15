@@ -73,15 +73,20 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
   - [AppleALC (1.5.0)](https://github.com/acidanthera/AppleALC/releases)
   - [IntelMausi (1.0.3)](https://github.com/acidanthera/IntelMausi/releases)
   - [USBInjectAll (0.7.5)](https://github.com/Sniki/OS-X-USB-Inject-All/releases)
-  - [IntelBluetoothFirmware + IntelBluetoothInjector (1.0.3)](https://github.com/zxystd/IntelBluetoothFirmware/releases)
   - [FakePCIID + FakePCIID_Intel_HDMI_Audio (RehabMan-FakePCIID-2018-1027)](https://github.com/RehabMan/OS-X-Fake-PCI-ID)
+  - [IntelBluetoothFirmware + IntelBluetoothInjector (1.0.3)](https://github.com/zxystd/IntelBluetoothFirmware/releases)
 
 ## Additional Hardware
 - BCM94360CS2
 - [12+6 pin to M.2 adapter](https://www.aliexpress.com/item/4000494260199.html)
 
-
-
+## Credits
+https://dortania.github.io/OpenCore-Desktop-Guide/
+https://www.reddit.com/r/hackintosh/
+https://github.com/acidanthera/
+https://github.com/Sniki/
+https://github.com/RehabMan/
+https://github.com/zxystd/
 
 
 
