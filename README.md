@@ -82,10 +82,15 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
 
 ## Credits
 https://dortania.github.io/OpenCore-Desktop-Guide/
+
 https://www.reddit.com/r/hackintosh/
+
 https://github.com/acidanthera/
+
 https://github.com/Sniki/
+
 https://github.com/RehabMan/
+
 https://github.com/zxystd/
 
 
