@@ -22,13 +22,14 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
 - iMessage, FaceTime & Continuity
 
 **Not Working**
-- Intel WIFI
+- Intel WIFI & ~~BT~~***
 - Memory Card Reader
 
 **Did Not Test**
 - mDP Output
 
 ** HDMI Audio is fixed by using [FakePCIID + FakePCIID_Intel_HDMI_Audio (RehabMan-FakePCIID-2018-1027)](https://github.com/RehabMan/OS-X-Fake-PCI-ID)
+*** Intel BT can be fixed by using [IntelBluetoothFirmware + IntelBluetoothInjector (1.0.3)](https://github.com/zxystd/IntelBluetoothFirmware/releases)
 
 ## Installation
 1. Follow [OpenCore Desktop Guide - Creating the USB](https://dortania.github.io/OpenCore-Desktop-Guide/installer-guide/) to create USB installer.
@@ -74,8 +75,6 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
   - [IntelBluetoothFirmware + IntelBluetoothInjector (1.0.3)](https://github.com/zxystd/IntelBluetoothFirmware/releases)
   - [FakePCIID + FakePCIID_Intel_HDMI_Audio (RehabMan-FakePCIID-2018-1027)](https://github.com/RehabMan/OS-X-Fake-PCI-ID)
 
-Intel BT can be fixed by using [IntelBluetoothFirmware + IntelBluetoothInjector (1.0.3)](https://github.com/zxystd/IntelBluetoothFirmware/releases)
-  
 ## Additional Hardware
 - BCM94360CS2
 - [12+6 pin to M.2 adapter](https://www.aliexpress.com/item/4000494260199.html)
