@@ -34,7 +34,7 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
 
 ## Installation
 1. Follow [OpenCore Desktop Guide - Creating the USB](https://dortania.github.io/OpenCore-Desktop-Guide/installer-guide/) to create USB installer.
-2. Replace `EFI` with [EFI](asdsa)
+2. Replace `EFI` with [EFI](EFI)
 3. Generate SMBIOS using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
    - Model: `iMac17,1`
    - Edit `EFI/OC/config.plist`
