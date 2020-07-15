@@ -62,6 +62,10 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
 
 ## Post-installation
 1. [Fix USB map](https://dortania.github.io/USB-Map-Guide/intel-mapping/intel.html) and remove USBInjectAll
+2. [Boot without USB](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/oc2hdd.html)
+3. [Fix Resolution and Verbose](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/verbose.html)
+4. [Add GUI](https://dortania.github.io/OpenCore-Desktop-Guide/extras/gui.html)
+
 
 ## Source
 - `EFI/OC/Drivers`
