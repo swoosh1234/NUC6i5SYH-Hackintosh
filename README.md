@@ -10,7 +10,7 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
 - GPU: *Intel Iris Graphics 540*
 - Audio Codec: *Realtek ALC 283*
 - Ethernet: *Intel Ethernet Connection I219-V*
-- WIFI/BT: ~~*Intel Wireless-AC 8260 + Bluetooth 4.2*~~ Replaced with BCM94360CS2 + [M.2 B+M Key adapter] (https://imgur.com/LKzHL8V)**
+- WIFI/BT: ~~*Intel Wireless-AC 8260 + Bluetooth 4.2*~~ Replaced with *BCM94360CS2* + *[M.2 B+M Key adapter](https://imgur.com/LKzHL8V)*
 - BIOS Version: *SYSKLi35.86A.0072.2019.1001.1636*
 
 **Working**
