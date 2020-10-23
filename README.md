@@ -20,13 +20,11 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
 - WIFI + BT
 - HDMI Audio**
 - iMessage, FaceTime & Continuity
+- mDP Output (4k@60Hz)
 
 **Not Working**
 - Intel WIFI & ~~BT~~***
 - Memory Card Reader
-
-**Did Not Test**
-- mDP Output
 
 ** HDMI Audio is fixed by using [FakePCIID + FakePCIID_Intel_HDMI_Audio (RehabMan-FakePCIID-2018-1027)](https://github.com/RehabMan/OS-X-Fake-PCI-ID)
 
