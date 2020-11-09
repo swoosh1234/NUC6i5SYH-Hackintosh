@@ -20,7 +20,7 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
 - WIFI + BT
 - HDMI Audio**
 - iMessage, FaceTime & Continuity
-- mDP Output (4k@60Hz)
+- mDP Output (4k@60Hz) **(Thanks to @lafrenierejm)**
 
 **Not Working**
 - Intel WIFI & ~~BT~~***
