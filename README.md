@@ -1,7 +1,13 @@
 # NUC6i5SYH-Hackintosh
 Install macOS Catalina on Intel NUC6i5SYH using OpenCore 0.5.9.
 
-Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-Guide/)
+Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Install-Guide/)
+
+
+**Edit**
+
+*11/16/2020:* Fix broken links
+
 
 ## Specs
 - CPU: *Intel Core i5-6260U*
@@ -31,7 +37,7 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
 *** Intel BT can be fixed by using [IntelBluetoothFirmware + IntelBluetoothInjector (1.0.3)](https://github.com/zxystd/IntelBluetoothFirmware/releases)
 
 ## Installation
-1. Follow [OpenCore Desktop Guide - Creating the USB](https://dortania.github.io/OpenCore-Desktop-Guide/installer-guide/) to create USB installer.
+1. Follow [OpenCore Desktop Guide - Creating the USB](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) to create USB installer.
 2. Replace `EFI` with [EFI](EFI)
 3. Generate SMBIOS using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
    - Model: `iMac17,1`
@@ -60,13 +66,13 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-
 
 ## Post-installation
 These steps are needed after initial installation:
-1. [Fix USB map](https://dortania.github.io/USB-Map-Guide/intel-mapping/intel.html) and remove USBInjectAll
-2. [Boot without USB](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/oc2hdd.html)
-3. [Fix Resolution and Verbose](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/verbose.html)
-4. [Add GUI](https://dortania.github.io/OpenCore-Desktop-Guide/extras/gui.html)
+1. [Fix USB map](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html) * Don't forget to replace USBInjectAll and update config.plist
+2. [Boot without USB](https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd.html)
+3. [Fix Resolution and Verbose](https://dortania.github.io/OpenCore-Post-Install/cosmetic/verbose.html)
+4. [Add GUI](https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html)
 
 
-## Source
+## Source (version tested)
 - `EFI/OC/Drivers`
   - [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
 - `EFI/OC/Kexts`
