@@ -7,6 +7,7 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Install-
 **Changelog**
 
 *12/30/2020:* Add Big Sur EFI Files
+
 *11/16/2020:* Fix broken links
 
 
