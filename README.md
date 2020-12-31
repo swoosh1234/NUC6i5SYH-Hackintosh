@@ -1,23 +1,24 @@
 # NUC6i5SYH-Hackintosh
-Install macOS Catalina (10.15.7) on Intel NUC6i5SYH using OpenCore 0.5.9.
+Install macOS Catalina (10.15.7) / Big Sur (11.1) on Intel NUC6i5SYH using OpenCore 0.5.9 / 0.6.3.
 
 Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 
 
-**Edit**
+**Changelog**
 
+*12/30/2020:* Add Big Sur EFI Files
 *11/16/2020:* Fix broken links
 
 
 ## Specs
-- CPU: *Intel Core i5-6260U*
-- RAM: *12 GB (8GB + 4GB)*
-- HDD: *Crucial MX500 250GB SATA SSD*
-- GPU: *Intel Iris Graphics 540*
-- Audio Codec: *Realtek ALC 283*
-- Ethernet: *Intel Ethernet Connection I219-V*
-- WIFI/BT: ~~*Intel Wireless-AC 8260 + Bluetooth 4.2*~~ Replaced with *BCM94360CS2* + *[M.2 B+M Key adapter](https://imgur.com/LKzHL8V)*
-- BIOS Version: *SYSKLi35.86A.0072.2019.1001.1636*
+- CPU: Intel Core i5-6260U
+- RAM: 16 GB (2x8 GB)
+- HDD: Crucial MX500 250GB SATA SSD
+- GPU: Intel Iris Graphics 540
+- Audio Codec: Realtek ALC 283
+- Ethernet: Intel Ethernet Connection I219-V
+- WIFI/BT: ~~Intel Wireless-AC 8260 + Bluetooth 4.2~~ Replaced with BCM94360CS2 + [M.2 B+M Key adapter](https://imgur.com/LKzHL8V)
+- BIOS Version: SYSKLi35.86A.0072.2019.1001.1636
 
 **Working**
 - Audio Jack
@@ -38,7 +39,7 @@ Reference: [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Install-
 
 ## Installation
 1. Follow [OpenCore Desktop Guide - Creating the USB](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) to create USB installer.
-2. Replace `EFI` with [EFI](EFI)
+2. Replace `EFI`
 3. Generate SMBIOS using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
    - Model: `iMac17,1`
    - Edit `EFI/OC/config.plist`
@@ -76,11 +77,11 @@ These steps are needed after initial installation:
 - `EFI/OC/Drivers`
   - [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
 - `EFI/OC/Kexts`
-  - [Lilu (1.4.5)](https://github.com/acidanthera/Lilu/releases)
-  - [VirtualSMC + SMCProcessor + SMCSuperIO (1.1.4)](https://github.com/acidanthera/VirtualSMC/releases)
-  - [WhateverGreen (1.4.0)](https://github.com/acidanthera/WhateverGreen/releases)
-  - [AppleALC (1.5.0)](https://github.com/acidanthera/AppleALC/releases)
-  - [IntelMausi (1.0.3)](https://github.com/acidanthera/IntelMausi/releases)
+  - [Lilu (1.4.9)](https://github.com/acidanthera/Lilu/releases)
+  - [VirtualSMC + SMCProcessor + SMCSuperIO (1.1.9)](https://github.com/acidanthera/VirtualSMC/releases)
+  - [WhateverGreen (1.4.5)](https://github.com/acidanthera/WhateverGreen/releases)
+  - [AppleALC (1.5.4)](https://github.com/acidanthera/AppleALC/releases)
+  - [IntelMausi (1.0.4)](https://github.com/acidanthera/IntelMausi/releases)
   - [USBInjectAll (0.7.5)](https://github.com/Sniki/OS-X-USB-Inject-All/releases)
   - [FakePCIID + FakePCIID_Intel_HDMI_Audio (RehabMan-FakePCIID-2018-1027)](https://github.com/RehabMan/OS-X-Fake-PCI-ID)
   - [IntelBluetoothFirmware + IntelBluetoothInjector (1.0.3)](https://github.com/zxystd/IntelBluetoothFirmware/releases)
